@@ -47,6 +47,13 @@ The right action string can be found by decompiling the settings app
 (`com.amazon.tv.settings.v2`) with apktool and inspecting the smali of the
 Activity behind the screen you want.
 
+## Notes
+
+- Tested on: Fire TV Stick 4K (2nd Gen), firmware 8.1.5.5. Other devices and firmware versions are untested and may not work.
+- The target screen is an internal Amazon settings action, so it may stop working after a system update.
+- Unofficial. Not affiliated with or endorsed by Amazon. Amazon and Fire TV are trademarks of Amazon.com, Inc. or its affiliates.
+- Use at your own risk.
+
 ## License
 
 MIT
