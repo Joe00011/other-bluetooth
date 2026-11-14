@@ -5,11 +5,9 @@ A tiny shim app for Fire TV / Android TV that jumps straight to the
 
 ## Why
 
-Launcher/remapper tools like Launcher Manager can usually only target a
-package + class, not an Intent action. Some settings screens only change
-behavior based on the action, so they're unreachable that way. This app
-just fires the right action-based Intent on launch and exits immediately.
-It shows up as a normal app, so tools like Launcher Manager can target it.
+Opening the Bluetooth settings on Fire TV takes many steps through the menus. This app opens the "Other Bluetooth Devices" screen directly, in a single step.
+
+You can also combine it with an app that remaps remote buttons, such as Launcher Manager, to open the screen even more conveniently.
 
 ## Install
 
