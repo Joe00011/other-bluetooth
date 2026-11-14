@@ -1,5 +1,7 @@
 # Other Bluetooth
 
+<img src="res/drawable-nodpi/banner.png" width="400" alt="Other Bluetooth">
+
 A tiny shim app for Fire TV that jumps straight to the
 "Other Bluetooth Devices" screen hidden inside the system settings app.
 
