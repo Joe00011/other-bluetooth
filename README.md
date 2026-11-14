@@ -12,7 +12,7 @@ You can also combine it with an app that remaps remote buttons, such as Launcher
 ## Install
 
 Download the APK from the [Releases](../../releases) page and sideload it
-onto your Fire TV (e.g. via `adb install` or Downloader).
+onto your Fire TV (e.g. via `adb install`).
 
 ## Build from source (optional)
 
