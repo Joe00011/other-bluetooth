@@ -10,6 +10,13 @@ Opening the Bluetooth settings on Fire TV takes many steps through the menus. Th
 
 You can also combine it with an app that remaps remote buttons, such as Launcher Manager, to open the screen even more conveniently.
 
+## Features
+
+- Free and open source (MIT license)
+- No ads
+- Collects no data: the app requests no permissions and has no internet access
+- Lightweight
+
 ## Screenshot
 
 Launching the app takes you straight to this screen:
@@ -46,10 +53,6 @@ action you want, then rebuild:
 ```smali
 const-string v1, "com.amazon.device.settings.action.INPUT_DEVICES"
 ```
-
-The right action string can be found by decompiling the settings app
-(`com.amazon.tv.settings.v2`) with apktool and inspecting the smali of the
-Activity behind the screen you want.
 
 ## Notes
 
