@@ -19,7 +19,7 @@ onto your Fire TV (e.g. via `adb install` or Downloader).
 Requires [apktool](https://ibotpeaches.github.io/Apktool/) and a JDK (keytool / jarsigner).
 
 ```bash
-apktool b blueshim -o other-bluetooth.apk
+apktool b . -o other-bluetooth.apk
 
 keytool -genkey -v -keystore debug.keystore -storepass android \
   -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 \
@@ -35,6 +35,10 @@ adb install other-bluetooth.apk
 
 Edit this line in `smali/com/oss/firetv/blueshim/MainActivity.smali` to the
 action you want, then rebuild:
+
+```smali
+const-string v1, "com.amazon.device.settings.action.INPUT_DEVICES"
+```
 
 The right action string can be found by decompiling the settings app
 (`com.amazon.tv.settings.v2`) with apktool and inspecting the smali of the
