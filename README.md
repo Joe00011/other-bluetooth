@@ -1,6 +1,6 @@
 # Other Bluetooth
 
-A tiny shim app for Fire TV / Android TV that jumps straight to the
+A tiny shim app for Fire TV that jumps straight to the
 "Other Bluetooth Devices" screen hidden inside the system settings app.
 
 ## Why
@@ -13,11 +13,6 @@ You can also combine it with an app that remaps remote buttons, such as Launcher
 
 Download the APK from the [Releases](../../releases) page and sideload it
 onto your Fire TV (e.g. via `adb install` or Downloader).
-
-## Tested on
-
-- Fire TV Stick 4K (2nd Gen, mantra / AFTKM)
-- Fire OS 8.1.8.5 (RS8185.3885N)
 
 ## Build from source (optional)
 
