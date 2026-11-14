@@ -25,8 +25,7 @@ Launching the app takes you straight to this screen:
 
 ## Install
 
-Download the APK from the [Releases](../../releases) page and sideload it
-onto your Fire TV (e.g. via `adb install`).
+Download the latest APK from [GitHub Releases](https://github.com/Joe00011/other-bluetooth/releases/latest) and install it on your Fire TV.
 
 ## Build from source (optional)
 
