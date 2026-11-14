@@ -1,19 +1,20 @@
 # Other Bluetooth
 
-<p>
+<p align="center">
   <img src="res/drawable-nodpi/banner.png" width="400" alt="Other Bluetooth">
-  <img src="docs/screenshot.png" width="400" alt="The Other Bluetooth Devices screen">
 </p>
 
-
-A tiny shim app for Fire TV that jumps straight to the
-"Other Bluetooth Devices" screen hidden inside the system settings app.
+A tiny app for Fire TV that opens the "Other Bluetooth Devices" screen directly.
 
 ## Why
 
 Opening the Bluetooth settings on Fire TV takes many steps through the menus. This app opens the "Other Bluetooth Devices" screen directly, in a single step.
 
 You can also combine it with an app that remaps remote buttons, such as Launcher Manager, to open the screen even more conveniently.
+
+## Screenshot
+
+<img src="docs/screenshot.png" width="640" alt="The Other Bluetooth Devices screen opened by the app">
 
 ## Install
 
