@@ -14,7 +14,7 @@ You can also combine it with an app that remaps remote buttons, such as Launcher
 
 - Free and open source (MIT license)
 - No ads
-- Collects no data: the app requests no permissions and has no internet access
+- Collects no data
 - Lightweight
 
 ## Screenshot
